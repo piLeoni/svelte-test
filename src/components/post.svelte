@@ -1,6 +1,5 @@
 <script>
     import { createEventDispatcher } from "svelte";
-
     export let title = "Title";
     export let content = `Eu reprehenderit id sit do sunt esse incididunt laborum. 
     In reprehenderit ad adipisicing ea quis et occaecat nisi aute sunt irure. 
@@ -9,7 +8,6 @@
     Veniam reprehenderit consequat ipsum ad mollit nisi id enim. Enim duis ex 
     aliquip ut exercitation nisi laborum id. Id exercitation dolor minim labore pariatur.`;
     const dispatch = createEventDispatcher();
-
     function deleteMe() {
         dispatch("delete");
     }

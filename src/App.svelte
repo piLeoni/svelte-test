@@ -1,9 +1,7 @@
 <script>
     import Post from "./components/post.svelte";
-
     let contents = fetch('contents.json').then(res => res.json());
     // import json from './public/contents.json';
-
     // console.log(paragraphs)
 </script>
 
